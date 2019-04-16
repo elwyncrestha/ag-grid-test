@@ -6,6 +6,8 @@
     class="ag-theme-balham"
     [rowData]="rowData | async" 
     [columnDefs]="columnDefs"
-    rowSelection="multiple"
+    rowSelection="multiple" 
+    [autoGroupColumnDef]="autoGroupColumnDef" 
+    groupSelectsChildren
     >
 </ag-grid-angular>
